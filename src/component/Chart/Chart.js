@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import GraphOfSell from '../GraphOfSell/GraphOfSell';
+import RevenueGraph from '../RevenueGraph/RevenueGraph';
 
 const Chart = () => {
     const [data,setData] = useState([])
@@ -13,6 +14,9 @@ const Chart = () => {
             <GraphOfSell
                 data={data}
             ></GraphOfSell>
+            <RevenueGraph
+                data={data}
+            ></RevenueGraph>
         </div>
     );
 };

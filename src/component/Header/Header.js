@@ -7,7 +7,7 @@ const Header = () => {
             <nav className='list-none flex justify-center test-center bg-slate-400'>
                 <ul className='flex'>
                     <li className='p-5'>
-                        <Link to='/home'>HOME</Link>
+                        <Link to='/'>HOME</Link>
                     </li>
                     <li className='p-5'>
                         <Link to='/reviews'>REVIEWS</Link>

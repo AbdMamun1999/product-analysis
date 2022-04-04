@@ -4,7 +4,7 @@ import BannerTitle from '../BannerTitle/BannerTitle';
 
 const Banner = () => {
     return (
-        <div className='flex'>
+        <div className='flex h-4/5	'>
             <BannerTitle></BannerTitle>
             <BannerImage></BannerImage>
         </div>

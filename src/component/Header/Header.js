@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
         <div>
             <nav className='list-none  bg-slate-400'>
-                <div className='w-4/5 flex justify-between items-center mx-auto'>
+                <div className='w-4/5 flex justify-between items-center mx-auto lg:flex-row col'>
                     <h2 className='text-2xl font-medium'>
                         <Link to='/'>Laptop Bazar</Link>
                     </h2>

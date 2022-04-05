@@ -15,7 +15,7 @@ const CustomerReviews = () => {
     return (
         <div>
             <h3 className='text-xl text-center mb-8 font-bold'>Customer Reviews</h3>
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid lg:grid-cols-3 gap-5'>
                 {
                     reviewsSlice.map(review => <Review
                         key={review.id}

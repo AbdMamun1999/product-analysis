@@ -7,8 +7,8 @@ const Reviews = () => {
     console.log(reviews)
     return (
         <div>
-            <h3>All Reviews Here</h3>
-            <div>
+            <h3 className='text-2xl text-center my-5'>All Reviews Here</h3>
+            <div className='w-4/5 mx-auto grid lg:grid-cols-3 gap-10'>
                 {
                     reviews.map(review => <Review
                         key={review.id}

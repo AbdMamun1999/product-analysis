@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import {  Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const GraphOfSell = ({ data }) => {
     return (

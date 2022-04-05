@@ -1,5 +1,10 @@
 # Laptop Bazar
 
+# Features
+* This is some menu and every page have different routes
+* There is product and three customer reviews in home page
+* There is a see all views button on home page,if you click the button,you will see all reviews on reviews page
+* there is revenue chart,sell chart and investment chart on dashboard page and question answer is in blogs page 
 
 ## Available Scripts
 

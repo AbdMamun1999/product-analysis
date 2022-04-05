@@ -4,7 +4,7 @@ import BannerTitle from '../BannerTitle/BannerTitle';
 
 const Banner = () => {
     return (
-        <div className='flex lg:flex-row sm:flex-col'>
+        <div className='flex lg:flex-row col'>
             <BannerTitle></BannerTitle>
             <BannerImage></BannerImage>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const BannerTitle = () => {
     return (
-        <div className='w-1/2 flex justify-center items-center'>
+        <div className='lg:w-1/2 flex justify-center items-center'>
             <div>
                 <h1 className='text-6xl font-bold text-left'>THE LAPTOP FOR YOU</h1>
                 <h1 className='text-6xl font-bold text-left'>AND IT'S BEST</h1>

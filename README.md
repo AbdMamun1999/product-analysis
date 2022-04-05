@@ -1,6 +1,9 @@
 # Laptop Bazar
 
-# Features
+## Live website link
+click here:https://celadon-pasca-14269c.netlify.app/
+
+# bullet point
 * This is some menu and every page have different routes
 * There is product and three customer reviews in home page
 * There is a see all views button on home page,if you click the button,you will see all reviews on reviews page
